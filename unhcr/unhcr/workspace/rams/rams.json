@@ -1,0 +1,78 @@
+{
+ "charts": [
+  {
+   "chart_name": "Resources by Category",
+   "label": "Resources by Category"
+  },
+  {
+   "chart_name": "Resources per Department",
+   "label": "Resources per Department"
+  },
+  {
+   "chart_name": "Resources by Partner",
+   "label": "Resources by Partner"
+  },
+  {
+   "chart_name": "Resources by Status",
+   "label": "Resources by Status"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\">UNHCR Resources</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Resources by Category\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Resources by Partner\",\"col\":6}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Resources\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Partners\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Resource Categories\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Departments\",\"col\":3}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Resources per Department\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Resources by Status\",\"col\":6}}]",
+ "creation": "2022-07-27 16:50:56.822854",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "projects",
+ "idx": 0,
+ "label": "RAMS",
+ "links": [],
+ "modified": "2022-07-29 11:18:38.079837",
+ "modified_by": "Administrator",
+ "module": "UNHCR",
+ "name": "RAMS",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "Tree",
+   "format": "{}",
+   "label": "Resource Categories",
+   "link_to": "UNHCR Resource Type",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Departments",
+   "link_to": "UNHCR Department",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Resources",
+   "link_to": "UNHCR Resource",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Partners",
+   "link_to": "UNHCR Partner",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "RAMS"
+}

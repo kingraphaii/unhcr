@@ -1,0 +1,51 @@
+[
+ {
+  "breadcrumbs": null,
+  "content_type": "Page Builder",
+  "context_script": null,
+  "css": null,
+  "docstatus": 0,
+  "doctype": "Web Page",
+  "dynamic_route": 0,
+  "dynamic_template": 0,
+  "enable_comments": 0,
+  "end_date": null,
+  "full_width": 1,
+  "header": null,
+  "insert_style": 0,
+  "javascript": null,
+  "main_section": null,
+  "main_section_html": null,
+  "main_section_md": null,
+  "meta_description": null,
+  "meta_image": null,
+  "meta_title": null,
+  "modified": "2022-07-27 14:46:19.704521",
+  "module": "UNHCR",
+  "name": "rams",
+  "page_blocks": [
+   {
+    "add_bottom_padding": 1,
+    "add_container": 1,
+    "add_shade": 1,
+    "add_top_padding": 1,
+    "css_class": null,
+    "hide_block": 0,
+    "parent": "rams",
+    "parentfield": "page_blocks",
+    "parenttype": "Web Page",
+    "web_template": "Hero with Right Image",
+    "web_template_values": "{\"title\":\"UNHCR Zimbabwe\",\"subtitle\":\"Resources Allocation Management System\",\"image\":\"/files/unhcr-big.png\",\"contain_image\":1,\"primary_action_label\":\"Sign In\",\"primary_action\":\"/login\",\"secondary_action_label\":\"UNHCR Website\",\"secondary_action\":\"https://unhcr.gov\"}"
+   }
+  ],
+  "published": 1,
+  "route": "rams",
+  "show_sidebar": 0,
+  "show_title": 0,
+  "slideshow": null,
+  "start_date": null,
+  "text_align": "Left",
+  "title": "RAMS",
+  "website_sidebar": null
+ }
+]

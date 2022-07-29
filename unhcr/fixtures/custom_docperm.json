@@ -1,0 +1,27 @@
+[
+ {
+  "amend": 0,
+  "cancel": 0,
+  "create": 1,
+  "delete": 1,
+  "docstatus": 0,
+  "doctype": "Custom DocPerm",
+  "email": 0,
+  "export": 0,
+  "if_owner": 0,
+  "import": 0,
+  "modified": "2022-07-29 11:38:12.114948",
+  "name": "833d90015b",
+  "parent": "User",
+  "permlevel": 0,
+  "print": 0,
+  "read": 1,
+  "report": 0,
+  "role": "UNHCR Admin",
+  "select": 1,
+  "set_user_permissions": 0,
+  "share": 0,
+  "submit": 0,
+  "write": 1
+ }
+]

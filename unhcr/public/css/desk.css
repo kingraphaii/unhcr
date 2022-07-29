@@ -1,0 +1,11 @@
+body > div.main-section > header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /*border-bottom: 1px solid var(--theme-color);*/
+}
+
+body > div.main-section > header > div > a > img {
+    width: 125px !important;
+    /*width: 35px !important;*/
+}
+

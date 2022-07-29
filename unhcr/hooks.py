@@ -9,6 +9,43 @@ app_color = "grey"
 app_email = "percival@yate.co.zw"
 app_license = "MIT"
 
+app_logo_url = '/assets/unhcr/images/unhcr-small.png'
+
+treeviews = ['UNHCR Resource Type',]
+
+fixtures = [
+    # Core
+    "Custom Field",
+    "Client Script",
+    "Property Setter",
+
+    # System Settings
+    "Role Permission for Page and Report",
+
+    # Website
+    "Website Settings",
+    "Color",
+    "Web Page",
+    "Website Theme",
+
+    {"dt": "Role", "filters": [["role_name", "like", "UNH%"]]},
+    {"dt": "Custom DocPerm", "filters": [["role", "like", "UNH%"]]},
+    {"dt": "Module Profile", "filters": [["module_profile_name", "like", "RAMS"]]},
+]
+
+website_context = {
+    "favicon": "/assets/unhcr/images/unhcr-favicon.png",
+    "splash_image": "/assets/unhcr/images/unhcr.jpg",
+    "brand_html": """<div>
+    <img src="/assets/unhcr/images/unhcr-small.png"
+    style="max-height: 45px !important"></div>
+    """
+}
+
+# include js, css files in header of desk.html
+app_include_css = "/assets/unhcr/css/desk.css"
+web_include_css = "/assets/unhcr/css/web.css"
+
 # Includes in <head>
 # ------------------
 
